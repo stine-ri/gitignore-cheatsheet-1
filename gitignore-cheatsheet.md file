@@ -1,1 +1,5 @@
-
+  |Pattern            | Explanation/Matches                |         Examples |
+|name.file       |  Files with the exact name               |       error.log, README.txt|
+|name.file        | Files with the exact name in the root directory               |     config.json|
+|*.log          |  All files ending with the extension `.log`    | `debug.log`, `server.log`, `access.log` |
+ |*.txt           | All files ending with the extension `.txt`    | `notes.txt`, `instructions.txt`, `todo.txt`  |   
